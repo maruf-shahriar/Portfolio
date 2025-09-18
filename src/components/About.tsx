@@ -27,8 +27,7 @@ export default function About() {
           <div className="w-20 h-1 bg-primary mx-auto mb-8"></div>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Bio */}
+        <div className="max-w-4xl mx-auto">
           <div className="space-y-6 fade-in-up animate">
             <div className="space-y-4">
               <p className="text-lg text-muted-foreground leading-relaxed">
@@ -61,26 +60,6 @@ export default function About() {
             </div>
           </div>
 
-          {/* Skills */}
-          <div className="space-y-6 fade-in-up animate">
-            {skillCategories.map((category, index) => (
-              <div key={index} className="card-professional">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-                    <category.icon className="text-primary" size={20} />
-                  </div>
-                  <h3 className="font-semibold text-lg">{category.title}</h3>
-                </div>
-                <div className="flex flex-wrap gap-2">
-                  {category.skills.map((skill) => (
-                    <span key={skill.name} className="skill-tag">
-                      {skill.name}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
         </div>
       </div>
     </section>

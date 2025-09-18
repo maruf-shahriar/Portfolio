@@ -97,9 +97,8 @@ export default function Education() {
         <div className="max-w-5xl mx-auto space-y-12">
           {/* Main Education */}
           <div className="card-professional fade-in-up animate">
-            <div className="grid lg:grid-cols-3 gap-8">
-              {/* University Info */}
-              <div className="lg:col-span-2 space-y-6">
+            <div className="max-w-3xl mx-auto">
+              <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
                     <GraduationCap className="text-primary" size={32} />
@@ -134,75 +133,6 @@ export default function Education() {
                   </div>
                 </div>
               </div>
-
-              {/* Quick Stats */}
-              <div className="space-y-4">
-                <h4 className="font-semibold text-lg">Academic Highlights</h4>
-                <div className="space-y-3">
-                  <div className="text-center p-4 bg-surface rounded-lg border border-border">
-                    <div className="text-2xl font-bold text-primary">3.75</div>
-                    <div className="text-sm text-muted-foreground">GPA</div>
-                  </div>
-                  <div className="text-center p-4 bg-surface rounded-lg border border-border">
-                    <div className="text-2xl font-bold text-accent">4</div>
-                    <div className="text-sm text-muted-foreground">Years</div>
-                  </div>
-                  <div className="text-center p-4 bg-surface rounded-lg border border-border">
-                    <div className="text-2xl font-bold text-success">40+</div>
-                    <div className="text-sm text-muted-foreground">Courses</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Coursework */}
-          <div className="space-y-8">
-            <h3 className="text-2xl font-semibold text-center fade-in-up animate">Relevant Coursework</h3>
-            <div className="grid md:grid-cols-2 gap-6">
-              {coursework.map((category, index) => (
-                <div key={index} className="card-professional fade-in-up animate">
-                  <div className="space-y-4">
-                    <div className="flex items-center gap-3">
-                      <div className="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center">
-                        <BookOpen className="text-accent" size={20} />
-                      </div>
-                      <h4 className="font-semibold text-lg">{category.category}</h4>
-                    </div>
-                    <div className="grid gap-2">
-                      {category.courses.map((course, courseIndex) => (
-                        <div key={courseIndex} className="flex items-center gap-2">
-                          <div className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0"></div>
-                          <span className="text-muted-foreground text-sm">{course}</span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Achievements */}
-          <div className="space-y-8">
-            <h3 className="text-2xl font-semibold text-center fade-in-up animate">Academic Achievements</h3>
-            <div className="grid md:grid-cols-2 gap-6">
-              {achievements.map((achievement, index) => (
-                <div key={index} className="flex items-start gap-4 p-6 bg-card border border-border rounded-lg hover:border-primary/50 transition-all duration-300 fade-in-up animate">
-                  <div className="w-10 h-10 bg-success/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Award className="text-success" size={20} />
-                  </div>
-                  <div className="space-y-1">
-                    <div className="flex items-center gap-2">
-                      <h4 className="font-semibold">{achievement.title}</h4>
-                      <span className="text-xs text-muted-foreground bg-muted px-2 py-1 rounded">
-                        {achievement.year}
-                      </span>
-                    </div>
-                    <p className="text-muted-foreground text-sm">{achievement.description}</p>
-                  </div>
-                </div>
-              ))}
             </div>
           </div>
         </div>
