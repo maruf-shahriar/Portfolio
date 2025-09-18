@@ -74,9 +74,7 @@ export default function Footer() {
         <div className="border-t border-border py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
-              <span>© {currentYear} Maruf Shahriar. Made with</span>
-              <Heart size={14} className="text-red-500 fill-current" />
-              <span>using React & Tailwind</span>
+              <span>© {currentYear} Maruf Shahriar</span>
             </div>
 
             <button

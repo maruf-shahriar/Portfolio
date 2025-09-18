@@ -6,7 +6,7 @@ export default function Education() {
     university: 'East West University',
     degree: 'Bachelor of Science in Computer Science & Engineering',
     specialization: 'Intelligent Systems & Data Science',
-    duration: '2020 - 2024',
+    duration: '2020 - 2023',
     location: 'Dhaka, Bangladesh',
     gpa: '3.75/4.00',
     status: 'Graduated',
@@ -123,10 +123,10 @@ export default function Education() {
                     <MapPin size={16} />
                     <span>{education.location}</span>
                   </div>
-                  <div className="flex items-center gap-2">
+                  {/* <div className="flex items-center gap-2">
                     <Star size={16} />
                     <span>GPA: {education.gpa}</span>
-                  </div>
+                  </div> */}
                   <div className="flex items-center gap-2">
                     <Award size={16} />
                     <span>{education.status}</span>

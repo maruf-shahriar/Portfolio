@@ -5,16 +5,16 @@ export default function Experience() {
   const experience = {
     company: 'EasyBilling Software Company',
     position: 'Jr. Software Engineer',
-    duration: '2023 - Present',
+    duration: '2025 - Present',
     location: 'Dhaka, Bangladesh',
     description: [
       'Developed and maintained web applications using Laravel and React.js',
-      'Implemented RESTful APIs and database solutions with MySQL and MongoDB',
+      'Implemented RESTful APIs and database solutions with MySQL',
       'Collaborated with cross-functional teams to deliver high-quality software solutions',
       'Participated in code reviews and maintained clean, scalable code architecture',
       'Contributed to system optimization and performance improvements',
     ],
-    technologies: ['Laravel', 'React.js', 'MySQL', 'MongoDB', 'PHP', 'JavaScript']
+    technologies: ['Laravel', 'React.js', 'MySQL', 'PHP', 'JavaScript']
   };
 
   return (

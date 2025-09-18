@@ -188,18 +188,6 @@ export default function Contact() {
                   Download Resume
                 </button>
               </div>
-
-              {/* Quick Stats */}
-              <div className="grid grid-cols-2 gap-4">
-                <div className="text-center p-6 bg-card border border-border rounded-lg">
-                  <div className="text-2xl font-bold text-primary">2+</div>
-                  <div className="text-sm text-muted-foreground">Years Experience</div>
-                </div>
-                <div className="text-center p-6 bg-card border border-border rounded-lg">
-                  <div className="text-2xl font-bold text-accent">10+</div>
-                  <div className="text-sm text-muted-foreground">Projects Completed</div>
-                </div>
-              </div>
             </div>
           </div>
         </div>

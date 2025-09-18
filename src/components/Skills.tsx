@@ -7,37 +7,37 @@ export default function Skills() {
       title: 'Frontend Development',
       icon: Globe,
       color: 'text-blue-500 bg-blue-500/10 border-blue-500/20',
-      skills: ['React.js', 'JavaScript', 'TypeScript', 'HTML/CSS', 'Tailwind CSS', 'Vue.js']
+      skills: ['React.js', 'JavaScript', 'HTML/CSS', 'Tailwind CSS']
     },
     {
       title: 'Backend Development',
       icon: Server,
       color: 'text-green-500 bg-green-500/10 border-green-500/20',
-      skills: ['Laravel', 'PHP', 'Go', 'Node.js', 'RESTful APIs', 'GraphQL']
+      skills: ['Laravel', 'PHP', 'Go', 'RESTful APIs']
     },
     {
       title: 'Database & Storage',
       icon: Database,
       color: 'text-purple-500 bg-purple-500/10 border-purple-500/20',
-      skills: ['MySQL', 'MongoDB', 'PostgreSQL', 'Redis', 'Database Design', 'Query Optimization']
+      skills: ['MySQL', 'MongoDB', 'PostgreSQL', 'Database Design']
     },
     {
       title: 'Tools & DevOps',
       icon: Settings,
       color: 'text-orange-500 bg-orange-500/10 border-orange-500/20',
-      skills: ['Git/GitHub', 'Docker', 'Linux/Unix', 'AWS Basics', 'CI/CD', 'Testing']
+      skills: ['Git/GitHub', 'Docker', 'Linux/Unix', 'Testing']
     },
     {
       title: 'Data Science & AI',
       icon: BookOpen,
       color: 'text-cyan-500 bg-cyan-500/10 border-cyan-500/20',
-      skills: ['Python', 'Machine Learning', 'Data Analysis', 'Pandas/NumPy', 'Research Methods', 'Statistical Analysis']
+      skills: ['Python', 'Machine Learning', 'Pandas/NumPy', 'Research Methods', 'Statistical Analysis']
     },
     {
       title: 'Soft Skills',
       icon: Code2,
       color: 'text-indigo-500 bg-indigo-500/10 border-indigo-500/20',
-      skills: ['Problem Solving', 'Team Collaboration', 'Project Management', 'Communication', 'Code Review', 'Mentoring']
+      skills: ['Problem Solving', 'Team Collaboration', 'Project Management', 'Communication']
     }
   ];
 
@@ -78,22 +78,6 @@ export default function Skills() {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Additional Skills Summary */}
-        <div className="mt-16 grid md:grid-cols-3 gap-8">
-          <div className="text-center fade-in-up animate">
-            <div className="text-3xl font-bold text-primary mb-2">5+</div>
-            <div className="text-muted-foreground">Programming Languages</div>
-          </div>
-          <div className="text-center fade-in-up animate">
-            <div className="text-3xl font-bold text-accent mb-2">10+</div>
-            <div className="text-muted-foreground">Frameworks & Libraries</div>
-          </div>
-          <div className="text-center fade-in-up animate">
-            <div className="text-3xl font-bold text-success mb-2">15+</div>
-            <div className="text-muted-foreground">Tools & Technologies</div>
-          </div>
         </div>
       </div>
     </section>
